@@ -1,5 +1,11 @@
+.head{
+    text-align: center;
+}
 body{
     background-color: bisque;
+}
+h1,h3{
+    font-family: Helvetica, sans-serif;
 }
 #first{
     font-family: 'Courier New', Courier, monospace;

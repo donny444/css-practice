@@ -5,16 +5,16 @@ button {
 
 .link {
     font-size: 18px;
-    font-family: helvetica;
     background-color: white;
+    border: thick solid black;
     width: 300px;
     height: auto;
 }
 
-a {
+em {
     color: #ffffff;
     font-size: 32px;
-    font-family: Helvatica;
+    font-family: Helvetica, sans-serif;
 }
 
 body {
@@ -23,6 +23,12 @@ body {
 
 q {
     background-color: white;
+}
+
+.head {
+    text-align: center;
+    background-color: #000;
+    color: #fff;
 }
 
 .foot {
@@ -34,5 +40,9 @@ q {
     background-color: blue;
     color: #ffffff;
     font-size: 16px;
-    font-family: consolas;
+    font-family: Consolas, sans-serif;
+}
+
+#name {
+    font-family: Helvetica, sans-serif;
 }
