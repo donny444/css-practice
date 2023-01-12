@@ -3,12 +3,18 @@ button {
     border: thin solid black;
 }
 
+img {
+    margin-left: 40%;
+}
+
 .link {
     font-size: 18px;
     background-color: white;
     border: thick solid black;
     width: 300px;
     height: auto;
+    text-align: center;
+    margin-left: 40%;
 }
 
 em {
