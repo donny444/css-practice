@@ -1,0 +1,21 @@
+.center{
+    display: block;
+}
+table{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    border: 3px solid black;
+}
+tr{
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+    border-bottom-color: black;
+}
+th{
+    background-color: blue;
+    color: white;
+}
+td{
+    background-color: lightgrey;
+    color: black;
+}
