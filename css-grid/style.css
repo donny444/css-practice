@@ -1,0 +1,38 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 1rem;
+    background-color: blue;
+}
+
+.grid-item {
+    background-color: lightblue;
+    height: 100px;
+    justify-content: center;
+    align-content: center;
+}
+
+.grid-item-1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.grid-item-3 {
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+.semantic-header { grid-area: Header; }
+.semantic-menu { grid-area: Menu; }
+.semantic-main { grid-area: Main; }
+.semantic-right { grid-area: Right; }
+.semantic-footer { grid-area: Footer; }
+
+.semantic-container {
+    display: grid;
+    background-color: lightgreen;
+    grid-template-areas: 
+    'Header Header Header Header Header Header'
+    'Menu Main Main Main Right Right'
+    'Menu Footer Footer Footer Footer Footer';
+}
